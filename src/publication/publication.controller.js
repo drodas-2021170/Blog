@@ -15,7 +15,7 @@ export const addPublication = async (req, res) => {
 
 export const getPublications = async(req,res)=>{
     try {
-        let publications = await Publication.find()//.populate('course').populate('proyect')
+        let publications = await Publication.find().populate('course')
         if(!publications) return res.status(404).send({sucess:false, message:'Publications not found'})
         return res.send({success:true, message:'Publications found', publications})
     } catch (err) {
