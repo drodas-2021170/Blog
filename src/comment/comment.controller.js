@@ -17,3 +17,19 @@ export const addComment = async (req, res) => {
         return res.status(500).send({success:false, message:'General Error',err})
     }
 }
+
+export const getCommentsByPublication = async(req,res)=>{
+    const { id } = req.params
+    try {
+        console.log(id)
+        let publication = await Publication.findById(id)
+        if(!publication) return res.status(404).send({success:false, message:'Publication not found'})
+    
+        let comments = await Comment.find({publication:id})
+        if(!comments) return res.status(404).send({success:false, message:'Comments not found'})
+        return res.send({success:true, message:'Comments found', comments})
+    } catch (err) {
+        console.error(err)
+        return res.status(500).send({sucess:false,message:'General Error',err})
+    }
+}
