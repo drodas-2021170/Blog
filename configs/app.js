@@ -5,7 +5,6 @@ import cors from "cors"
 import helmet from "helmet"
 import publicationRoutes from "../src/publication/publication.routes.js"
 import commentRoutes from "../src/comment/comment.routes.js"
-import { addCourses } from "./setup.js"
 
 
 const configs = (app) =>{
@@ -25,7 +24,6 @@ const routes = (app)=>{
 export const initServer = async()=>{
     const app = express()
     try {
-        addCourses()
         configs(app)
         routes(app)
         app.listen(process.env.PORT)
