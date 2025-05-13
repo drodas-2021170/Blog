@@ -17,9 +17,11 @@ const publicationSchema = Schema(
             required:[true,'Proyect is requiered']
         },
         course:{
-            type: Schema.Types.ObjectId,
+            type:'String',
             ref:'Courses',
+            enum:['Tecnologia','Taller','TICS'],
             required:[true,'Course is requiered']
+            
         },
         creationDate:{
             type: Date,
