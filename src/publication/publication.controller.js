@@ -3,7 +3,6 @@ import Publication from "./publication.model.js"
 export const addPublication = async (req, res) => {
     try {
         let data = req.body
-
         let publication = new Publication(data)
         await publication.save()
         return res.send({success:true, message:'Publication created successfully',publication})
