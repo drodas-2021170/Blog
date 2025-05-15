@@ -22,3 +22,16 @@ export const getPublications = async(req,res)=>{
         return res.status(500).send({sucess:false, message:'General Error',err})
     }
 }
+
+export const getPublicationsById = async(req,res)=>{
+    try{
+        let id = req.params.id
+        let publication = await Publication.findById(id)
+        if(!publication) return res.status(404).send({sucess:false, message:'Publication'})
+        return res.send({success:true, message:'Publication found',publication})
+
+    }catch(err){
+        console.log(err)
+        return res.send(500).send({sucess:false, message:'General Error, err'})
+    }
+}
