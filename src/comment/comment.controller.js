@@ -25,7 +25,7 @@ export const getCommentsByPublication = async(req,res)=>{
         let publication = await Publication.findById(id)
         if(!publication) return res.status(404).send({success:false, message:'Publication not found'})
     
-        let comments = await Comment.find({publication:id})
+        let comments = await Comment.find({ publication: id }).sort({ creationDate: -1 });
         if(!comments) return res.status(404).send({success:false, message:'Comments not found'})
         return res.send({success:true, message:'Comments found', comments})
     } catch (err) {
