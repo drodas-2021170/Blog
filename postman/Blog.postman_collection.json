@@ -1,0 +1,1003 @@
+{
+	"info": {
+		"_postman_id": "e82d04fa-04e8-4e98-8f67-d4c10f24956e",
+		"name": "Blog",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37951898"
+	},
+	"item": [
+		{
+			"name": "Publication",
+			"item": [
+				{
+					"name": "Calculo Circulo",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Calculo Circulo ",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Programa hecho para poder calcular el ara de un ciruclo",
+									"type": "text"
+								},
+								{
+									"key": "proyect",
+									"value": "https://github.com/drodas-2021170/CalculoCirculo.git",
+									"type": "text"
+								},
+								{
+									"key": "creationDate",
+									"value": "2023-04-23",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3900/v1/publication/addPublication",
+							"host": [
+								"localhost"
+							],
+							"port": "3900",
+							"path": [
+								"v1",
+								"publication",
+								"addPublication"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "BattleShip Game",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "BattleShip Game",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "BattleShip realizado en JAVA, juego muy divertido que se puede jugar con toda la familia",
+									"type": "text"
+								},
+								{
+									"key": "proyect",
+									"value": "https://github.com/drodas-2021170/BattleShip.git",
+									"type": "text"
+								},
+								{
+									"key": "creationDate",
+									"value": "2023-06-05",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3900/v1/publication/addPublication",
+							"host": [
+								"localhost"
+							],
+							"port": "3900",
+							"path": [
+								"v1",
+								"publication",
+								"addPublication"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Panaderia Enchantee",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Panaderia Enchantee",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Programa realizado para panaderia Enchantee, la cual puede llevar el control detallado de la empresa.",
+									"type": "text"
+								},
+								{
+									"key": "proyect",
+									"value": "https://github.com/drodas-2021170/PanaderiaEnchantee.git",
+									"type": "text"
+								},
+								{
+									"key": "creationDate",
+									"value": "2024-07-15",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3900/v1/publication/addPublication",
+							"host": [
+								"localhost"
+							],
+							"port": "3900",
+							"path": [
+								"v1",
+								"publication",
+								"addPublication"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Calculadora",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Calculadora",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Calculadora hecha con Java SE",
+									"type": "text"
+								},
+								{
+									"key": "proyect",
+									"value": "https://github.com/drodas-2021170/Calculadora.git",
+									"type": "text"
+								},
+								{
+									"key": "creationDate",
+									"value": "2023-05-09",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3900/v1/publication/addPublication",
+							"host": [
+								"localhost"
+							],
+							"port": "3900",
+							"path": [
+								"v1",
+								"publication",
+								"addPublication"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Venta de Autos",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Venta de Autos",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Programa realizado en JAVA en cual se puede realizar compras de carros",
+									"type": "text"
+								},
+								{
+									"key": "proyect",
+									"value": "https://github.com/drodas-2021170/VentaDeAutos.git",
+									"type": "text"
+								},
+								{
+									"key": "creationDate",
+									"value": "2023-07-05",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3900/v1/publication/addPublication",
+							"host": [
+								"localhost"
+							],
+							"port": "3900",
+							"path": [
+								"v1",
+								"publication",
+								"addPublication"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Kinal Store",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Kinal Store",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Programa realizado con Java SE en el cual se puede gestionar un supermercado con todas las disponibilidades posibles.",
+									"type": "text"
+								},
+								{
+									"key": "proyect",
+									"value": "https://github.com/drodas-2021170/KinalStore.git",
+									"type": "text"
+								},
+								{
+									"key": "creationDate",
+									"value": "2024-05-17",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3900/v1/publication/addPublication",
+							"host": [
+								"localhost"
+							],
+							"port": "3900",
+							"path": [
+								"v1",
+								"publication",
+								"addPublication"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Radicales",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Radicales",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Programa hecho con JAVA SE el cual puede calcular radicales",
+									"type": "text"
+								},
+								{
+									"key": "proyect",
+									"value": "https://github.com/drodas-2021170/Radicales.git",
+									"type": "text"
+								},
+								{
+									"key": "creationDate",
+									"value": "2023-05-21",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3900/v1/publication/addPublication",
+							"host": [
+								"localhost"
+							],
+							"port": "3900",
+							"path": [
+								"v1",
+								"publication",
+								"addPublication"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Numero con Matriz",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Numero con Matriz",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Programa el cual muestra de forma grafica el numero 8 utilizando matrices",
+									"type": "text"
+								},
+								{
+									"key": "proyect",
+									"value": "https://github.com/drodas-2021170/Matriz.git",
+									"type": "text"
+								},
+								{
+									"key": "creationDate",
+									"value": "2023-05-30",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3900/v1/publication/addPublication",
+							"host": [
+								"localhost"
+							],
+							"port": "3900",
+							"path": [
+								"v1",
+								"publication",
+								"addPublication"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ahorcado",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Ahorcado",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Ahorcado realizado con JAVA",
+									"type": "text"
+								},
+								{
+									"key": "proyect",
+									"value": "https://github.com/drodas-2021170/AhorcadoJava.git",
+									"type": "text"
+								},
+								{
+									"key": "creationDate",
+									"value": "2023-07-28",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "TICS",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3900/v1/publication/addPublication",
+							"host": [
+								"localhost"
+							],
+							"port": "3900",
+							"path": [
+								"v1",
+								"publication",
+								"addPublication"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Area bajo la curva",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Area bajo la curva",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Programa el cual calcula el area bajo la curva",
+									"type": "text"
+								},
+								{
+									"key": "proyect",
+									"value": "https://github.com/drodas-2021170/AreaBajoLaCurvaa.git",
+									"type": "text"
+								},
+								{
+									"key": "creationDate",
+									"value": "2023-10-09",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3900/v1/publication/addPublication",
+							"host": [
+								"localhost"
+							],
+							"port": "3900",
+							"path": [
+								"v1",
+								"publication",
+								"addPublication"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Camara System",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Camara System",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Programa en el cual se puede llevar el controlo de un sistema de venta de camaras",
+									"type": "text"
+								},
+								{
+									"key": "proyect",
+									"value": "https://github.com/drodas-2021170/Camaras.git",
+									"type": "text"
+								},
+								{
+									"key": "creationDate",
+									"value": "2023-09-10",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Taller",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3900/v1/publication/addPublication",
+							"host": [
+								"localhost"
+							],
+							"port": "3900",
+							"path": [
+								"v1",
+								"publication",
+								"addPublication"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ahorcado 2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Ahorcado 2",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Juego ahorcado realizado con html, css y JS.",
+									"type": "text"
+								},
+								{
+									"key": "proyect",
+									"value": "https://github.com/drodas-2021170/Ahorcado2.git",
+									"type": "text"
+								},
+								{
+									"key": "creationDate",
+									"value": "2024-09-03",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "TICS",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3900/v1/publication/addPublication",
+							"host": [
+								"localhost"
+							],
+							"port": "3900",
+							"path": [
+								"v1",
+								"publication",
+								"addPublication"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ejercicios de JAVA",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Ejercicios de JAVA",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Erjercicios para practicar el uso de JAVA",
+									"type": "text"
+								},
+								{
+									"key": "proyect",
+									"value": "https://github.com/drodas-2021170/EjercicioJAVA.git",
+									"type": "text"
+								},
+								{
+									"key": "creationDate",
+									"value": "2023-05-30",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Tecnologia",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3900/v1/publication/addPublication",
+							"host": [
+								"localhost"
+							],
+							"port": "3900",
+							"path": [
+								"v1",
+								"publication",
+								"addPublication"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ejercicio TICS",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Ejercicio TICS",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Ejercicios de tics donde ponemos a prueba algunas funcionalidades basicas de html",
+									"type": "text"
+								},
+								{
+									"key": "proyect",
+									"value": "https://github.com/drodas-2021170/EjercicioTICS.git",
+									"type": "text"
+								},
+								{
+									"key": "creationDate",
+									"value": "2024-08-19",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "TICS",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3900/v1/publication/addPublication",
+							"host": [
+								"localhost"
+							],
+							"port": "3900",
+							"path": [
+								"v1",
+								"publication",
+								"addPublication"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ejercicio de JAVA",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Ejercicio de JAVA",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Ejercicio donde utilizamos cosas simples de JAVA SE",
+									"type": "text"
+								},
+								{
+									"key": "proyect",
+									"value": "https://github.com/drodas-2021170/Ejercicio-T.git",
+									"type": "text"
+								},
+								{
+									"key": "creationDate",
+									"value": "2024-02-28",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Tecnologia",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3900/v1/publication/addPublication",
+							"host": [
+								"localhost"
+							],
+							"port": "3900",
+							"path": [
+								"v1",
+								"publication",
+								"addPublication"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SpringBoot",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "SpringBoot",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Programa hecho con springboot para la aplicacion all the water",
+									"type": "text"
+								},
+								{
+									"key": "proyect",
+									"value": "https://github.com/drodas-2021170/SpringBoot.git",
+									"type": "text"
+								},
+								{
+									"key": "creationDate",
+									"value": "2024-09-08",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "Tecnologia",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3900/v1/publication/addPublication",
+							"host": [
+								"localhost"
+							],
+							"port": "3900",
+							"path": [
+								"v1",
+								"publication",
+								"addPublication"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getPost",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Totitosssssssssssssssssssss",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Totio hecho en 2023 por un profesor basura",
+									"type": "text"
+								},
+								{
+									"key": "proyect",
+									"value": "dsd",
+									"type": "text"
+								},
+								{
+									"key": "creationDate",
+									"value": "2023sdsdsd",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "68203cafcac241afb50db70c",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3900/v1/publication/getPublications",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3900",
+							"path": [
+								"v1",
+								"publication",
+								"getPublications"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getPost Copy",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Totitosssssssssssssssssssss",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Totio hecho en 2023 por un profesor basura",
+									"type": "text"
+								},
+								{
+									"key": "proyect",
+									"value": "dsd",
+									"type": "text"
+								},
+								{
+									"key": "creationDate",
+									"value": "2023sdsdsd",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "68203cafcac241afb50db70c",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3900/v1/publication/getPublication/6823fbc2eced3c606fc7c2d1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3900",
+							"path": [
+								"v1",
+								"publication",
+								"getPublication",
+								"6823fbc2eced3c606fc7c2d1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Comment",
+			"item": [
+				{
+					"name": "addComment",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "author",
+									"value": "Dilan",
+									"type": "text"
+								},
+								{
+									"key": "content",
+									"value": "Realmente me gusto mucho tu cuento",
+									"type": "text"
+								},
+								{
+									"key": "publication",
+									"value": "682118c95446065ee376a7a2",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3900/v1/comment/addComment",
+							"host": [
+								"localhost"
+							],
+							"port": "3900",
+							"path": [
+								"v1",
+								"comment",
+								"addComment"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getCommentByID",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "publicationId",
+									"value": "68203cce2be4c3cd9fceae4e",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3900/v1/comment/getCommentsByPublication/68203cce2be4c3cd9fceae4e",
+							"host": [
+								"localhost"
+							],
+							"port": "3900",
+							"path": [
+								"v1",
+								"comment",
+								"getCommentsByPublication",
+								"68203cce2be4c3cd9fceae4e"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
